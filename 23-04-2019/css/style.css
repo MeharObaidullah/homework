@@ -1,0 +1,44 @@
+body {
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.h3 {
+	width: 30%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h3:hover {
+	color: white;
+	background-color: gray;
+}
+h3 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: black;
+	background-color: rgba(98,173,141,0.6); 
+	font-family: cursive;
+}
+
+table {
+	border: 3px solid black;
+	color: black;
+	border-collapse: collapse;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: rgba(98,173,141,0.6);
+	font-family: cursive;
+}
+
+table .inner {
+	border: 0px;
+}
+
+.hr {
+	color: black;
+}

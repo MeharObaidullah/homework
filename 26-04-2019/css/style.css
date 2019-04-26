@@ -1,0 +1,118 @@
+body {
+	background-color: #7DD4E2;
+}
+
+.div1 {
+	width: 60%;
+	border:2px solid black;
+	text-align: center;
+	background-color: #51E7C7;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+/*Css For Example No. 1*/
+
+caption {
+	font-weight: bold; 
+}
+
+table.one {
+	border-collapse: collapse;
+}
+
+table.two {
+	border-collapse: separate;
+}
+
+td.a {
+	border-style: dotted;
+	border-width: 3px;
+	border-color: black;
+	padding: 10px;
+}
+
+td.b {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	padding: 10px;
+}
+
+
+
+/*Css For Example No.2*/
+
+
+
+table.oneone {
+	border-collapse: collapse;
+	width: 400px;
+	border-width: 2px;
+	border-color: black;
+	border-spacing: 10px;
+}
+
+table.twotwo {
+	border-collapse: separate;
+	width: 400px;
+	border-width: 2px;
+	border-color: black;
+	border-spacing: 10px;
+}
+
+
+/*Css for Example No.3*/
+
+
+
+
+.table3{
+	border: 2px solid black;
+	width: 400px;
+}
+
+caption.top {
+	caption-side: top;
+}
+caption.bottom {
+	caption-side: bottom;
+}
+caption.left {
+	caption-side: left;
+}
+caption.right {
+	caption-side: right;
+}
+
+
+/*Css for Example No.4*/
+
+
+
+table.empty {
+	width: 350px;
+	border-collapse: separate;
+	empty-cells: hide;
+}
+
+td.empty {
+	padding: 5px;
+	border: 2px solid black;
+}
+
+
+
+/*Css for Example No.5*/
+
+.myTable table {
+	border-collapse: collapse;
+}
+
+table.auto {
+	table-layout: auto;
+}
+
+table.fixed {
+	table-layout: fixed;
+}

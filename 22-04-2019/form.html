@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Form</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="divwidth">
+			<img id="profile" src="img/pic.jpg" alt="Picture">
+			<h1>Obaidullah Ishfaq</h1>
+		</div>
+		<form>
+			First Name:-
+			<input type="text" name="first_name">
+			<br>
+			Middle Name:-
+			<input type="text" name="middle_name">
+			<br>
+			Last Name:-
+			<input type="text" name="last_name">
+			<br>
+			Username:-
+			<input type="text" name="username">
+			<br>
+			Password:-
+			<input type="password" name="password">
+			<br>
+			Gender:-
+			<select name="dropdown">
+				<option value="male" selected>Male</option>
+				<option value="female">Female</option>
+			</select>
+			<br>
+			Favorite Subject:-
+			<input type="radio" name="subject" value="computer"> Computer
+			<input type="radio" name="subject" value="physics"> Physics
+			<br>
+			Hobbies:-
+			<input type="checkbox" name="cricket" value="on"> Cricket
+			<input type="checkbox" name="football" value="on"> Football
+			<input type="checkbox" name="book_reading" value="on"> Book Reading
+			<br>
+			About Me:-
+			<br>
+			<textarea rows="5" cols="50" name="description">About yourself here...</textarea>
+			<br>
+			<br>
+			<input type="submit" name="submit" value="Submit" />
+			<input type="reset" name="reset" value="Reset" />
+			<input type="button" name="ok" value="OK" />
+			<input type="image" name="imagebutton" src="img/submit.png" width="30" height="30" />
+		</form>
+	</div>
+</body>
+</html>

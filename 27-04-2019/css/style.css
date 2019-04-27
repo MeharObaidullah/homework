@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi|Indie+Flower|Lobster');
+body {
+	background-color: #EBEBEB;
+}
+
+.div1 {
+	width: 70%;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid black;
+	background-color: #AFD0BF;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 35px;
+}
+
+p {
+	font-family: 'Gugi', cursive;
+}
+
+/*Css for Border Example No.1*/
+
+
+p.example1 {
+	border:2px solid;
+	border-top-color: red;
+	border-bottom-color: green;
+	border-left-color: black;
+	border-right-color: blue;
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+p.example2 {
+	border: 2px solid;
+	border-color: green;
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+
+
+/*Css for Border Example No.2*/
+
+
+.exam2 p {
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	border-color: gray;
+}
+
+
+
+/*Css for Border Example No.3*/
+
+
+
+.exam3 p {
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+
+/*Css for Border Example No.4*/
+
+
+
+.exam4 p {
+	border: 4px double black;
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+}

@@ -1,0 +1,29 @@
+body {
+	background-image: url(../img/b2.jpg);
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-weight: bold;
+}
+
+.box {
+	border: 2px solid black;
+	width: 80%;
+	height: 850px;
+	margin: 0 auto;
+	padding-top: 25px;
+	background-color: rgba(0,0,0,0.7);
+	position: relative;
+}
+
+.div1 {
+	height: 800px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.7);
+}

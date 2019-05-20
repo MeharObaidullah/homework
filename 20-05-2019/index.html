@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loops</title>
+</head>
+<body>
+
+	<h1>Number Table with Loops</h1>
+
+	<script type="text/javascript">
+
+			const n = prompt('Enter Number for table!');
+			const loop = prompt('Enter Your Loop Method! 1) for 2) while 3) dowhile');
+			var cons = 1;
+
+		if(loop == 'for'){
+			document.write('Starting of For Loop!');
+			document.write('<br>');
+			document.write('<br>');
+			for (var i = 1; i <= 10; i++) {
+				document.write(n + ' * ' + i);
+				result = i*n;
+				document.write('(is equal to)' + result);
+				document.write('<br>');
+			}
+			document.write('End of For Loop!');
+		}
+		else if(loop == 'while'){
+			var c = 1;
+			document.write('Starting of While Loop!');
+			document.write('<br>');
+			document.write('<br>');
+			while(c <= 10){
+				document.write(n + ' * ' + c);
+				result = c*n;
+				document.write('(is equal to)' + result);
+				document.write('<br>');
+				c++;
+			}
+			document.write('End of While Loop!');
+		}
+		else if (loop == 'dowhile'){
+			do{
+				document.write(n + ' * ' + cons);
+				result = cons*n;
+				document.write('(is equal to)' + result);
+				document.write('<br>');
+				cons++;
+			} while(cons <= 10);
+		}
+		else{
+			alert('Wrong number or type input!');
+		}
+	</script>
+</body>
+</html>

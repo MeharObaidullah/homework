@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>What is your Grade?</h1>
+	<script type="text/javascript">
+		var TotalM = prompt('Enter Your Total Marks?');
+		var OMarks = prompt('Enter Your Obtained Marks?');
+		var points = OMarks/TotalM;
+		var final = points*100;
+
+		document.write('Your Percentage is &nbsp' + final + '%');
+		if(final >= 90) {
+			alert('Your letter grade is an A!');
+		}
+		else if(final<=89&&final>=75) {
+			alert('Your letter grade is a B !');
+		}
+		else if(final<=74&&final>=65) {
+			alert('Your letter grade is a C !');
+		}
+		else if(final<=64&&final>=55) {
+			alert('Your letter grade is a D !');
+		}
+		else if(final<54) {
+			alert('Your letter grade is an F !');
+		}
+		else{
+			alert('Wrong Input!');
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Basic_Grid</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.div{
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="col-xs-4 col-md-3 col-lg-5 div"><h4>First Coloum</h4></div>
+		<div class="col-xs-3 col-md-6 col-lg-4 div"><h4>Second Coloum</h4></div>
+		<div class="col-xs-3 col-md-3 col-lg-2 div"><h4>Third Coloum</h4></div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-3 col-sm-push-9 div">.col-sm-4 .col-sm-push-8</div>
+		<div class="col-sm-9 col-sm-pull-3 div">.col-sm-8 .col-sm-pull-4</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-5 col-md-6 div">.col-sm-5 .col-md-6</div>
+		<div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0 div">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+	</div>
+</body>
+</html>

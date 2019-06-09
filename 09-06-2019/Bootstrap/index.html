@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<title>Bootstrap (W3School)</title>
+	<style type="text/css">
+		.wrapper{
+			width: 80%;
+			margin: 0 auto;
+		}
+		.h1{
+			margin-bottom: 50px;
+			background-color: yellow;
+		}
+		.font{
+			font-family: 'Bree Serif', serif;
+		}
+		.jumbotron{
+			background-color: rgba(20,20,20,.3);
+		}
+		.table{
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container-fluid text-center">
+			<h1 class="font h1">Bootstrap Grid System (Topic No. 1)</h1>
+			
+
+
+			
+			<h3 class="font">Three Grid <span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<div class="row">
+					<div class="col-md-4"><h3>.col-md-4</h3></div>
+					<div class="col-md-4"><h3>.col-md-4</h3></div>
+					<div class="col-md-4"><h3>.col-md-4</h3></div>
+				</div>
+			</div>
+
+
+			
+			<h3 class="font">Two Unequal Grid <span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<div class="row">
+					<div class="col-md-4"><h3>.col-md-4</h3></div>
+					<div class="col-md-8"><h3>.col-md-8</h3></div>
+				</div>
+			</div>
+
+			
+			
+			<h3 class="font">Grid With No Gutters! <span class="label label-primary">Example No. 3</span></h3>
+			<div class="jumbotron">
+				<div class="row row-no-gutters">
+					<div class="col-md-3"><h3>.col-md-3</h3></div>
+					<div class="col-md-6"><h3>.col-md-6</h3></div>
+					<div class="col-md-3"><h3>.col-md-3</h3></div>
+				</div>
+			</div>
+
+			
+
+			<h3 class="font">Grid With Nested Columns! <span class="label label-primary">Example No. 4</span></h3>
+			<div class="jumbotron">
+				<div class="row">
+					<div class="col-md-8"><h3 style="background-color: lightgreen;">.col-md-8</h3>
+						<div class="row">
+							<div class="col-md-6"><h3>.col-md-6</h3></div>
+							<div class="col-md-6"><h3>.col-md-6</h3></div>
+						</div>
+					</div>
+					<div class="col-md-4"><h3>.col-md-4</h3></div>
+				</div>
+			</div>
+
+			
+
+			<h3 class="font">Mixed Grid (Mobile, Laptops and Desktop) <span class="label label-primary">Example No. 5</span></h3>
+			<div class="jumbotron">
+				<div class="row">
+					<div class="col-xs-3 col-md-4 col-lg-5"><h3>.col-xs-3 .col-md-4 .col-lg-5</h3></div>
+					<div class="col-xs-5 col-md-4 col-lg-3"><h3>.col-xs-5 .col-md-4 .col-lg-3</h3></div>
+					<div class="col-xs-4 col-md-4 col-lg-4"><h3>.col-xs-4 .col-md-4 .col-lg-4</h3></div>
+				</div>
+			</div>
+
+
+			<h1 class="font h1">Bootstrap Typography (Topic No. 2)</h1>
+
+
+			<h3 class="font">Heading Tags with Small Tag <span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<h1>Bootstrap <small>is CSS Framework</small></h1>
+				<h2>Bootstrap <small>is CSS Framework</small></h2>
+				<h3>Bootstrap <small>is CSS Framework</small></h3>
+				<h4>Bootstrap <small>is CSS Framework</small></h4>
+				<h5>Bootstrap <small>is CSS Framework</small></h5>
+				<h6>Bootstrap <small>is CSS Framework</small></h6>
+			</div>
+
+
+			<h3 class="font">Mark & Abbr Tag<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<p>Lorem ipsum <mark>dolor</mark> sit amet, <abbr title="I Don't Know">consectetur</abbr> adipisicing elit. Ab, repudiandae.</p>
+			</div>
+
+
+
+			<h3 class="font">Blockquote Tag <span class="label label-primary">Example No. 3</span></h3>
+			<div class="jumbotron">
+				<blockquote>
+					<p>Lorem ipsum <mark>dolor</mark> sit amet, <abbr title="I Don't Know">consectetur</abbr> adipisicing elit. Ab, repudiandae.</p>
+					<footer>Don't Know</footer>
+				</blockquote>
+				<blockquote class="blockquote-reverse">
+					<p>Lorem ipsum <mark>dolor</mark> sit amet, <abbr title="I Don't Know">consectetur</abbr> adipisicing elit. Ab, repudiandae.</p>
+					<footer>Don't Know</footer>
+				</blockquote>
+			</div>
+
+
+
+			<h3 class="font">Dl (Description Lists) Tag<span class="label label-primary">Example No. 4</span></h3>
+			<div class="jumbotron">
+				<dt>Coffee</dt>
+				<dd>Programer One Love!</dd>
+				<dt>Bugs</dt>
+				<dd>Programmer Friend When he alone!</dd>
+			</div>
+
+
+			<h3 class="font">Code, 	Kbd, Pre Tag<span class="label label-primary">Example No. 5</span></h3>
+			<div class="jumbotron">
+				<p>Lorem <code>ipsum</code> dolor sit <code>amet</code>, <kbd>Ctrl+C</kbd> adipisicing elit. Maiores animi architecto, perferendis dicta autem excepturi.</p>
+				<pre>
+					body{
+						margin: 0;
+						padding: 0;
+					}
+				</pre>
+			</div>
+
+
+
+			<h3 class="font">Contextual Colors and Backgrounds Tag<span class="label label-primary">Example No. 6</span></h3>
+			<div class="jumbotron">
+				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia.</p>
+				<p class="text-primary">Ab, iure unde saepe! Harum quos rerum natus sint.</p>
+				<p class="text-success">Quod iure, eos impedit fugit delectus deserunt in excepturi!</p>
+				<p class="text-info">Dolor magnam, et debitis ipsam necessitatibus voluptatibus dignissimos quis.</p>
+				<p class="text-warning">Esse repudiandae inventore totam illum nostrum suscipit, id reiciendis!</p>
+				<p class="text-danger">Dolores a, ratione explicabo nesciunt quasi repellendus vitae alias.</p>
+
+				<p class="bg-primary">Ab, iure unde saepe! Harum quos rerum natus sint.</p>
+				<p class="bg-success">Quod iure, eos impedit fugit delectus deserunt in excepturi!</p>
+				<p class="bg-info">Dolor magnam, et debitis ipsam necessitatibus voluptatibus dignissimos quis.</p>
+				<p class="bg-warning">Esse repudiandae inventore totam illum nostrum suscipit, id reiciendis!</p>
+				<p class="bg-danger">Dolores a, ratione explicabo nesciunt quasi repellendus vitae alias.</p>
+			</div>
+
+
+
+			<h3 class="font">.list-unstyled .list-inline Classes<span class="label label-primary">Example No. 7</span></h3>
+			<div class="jumbotron">
+				<ul class="list-unstyled list-inline">
+					<li><a href="#">Lorem.</a></li>
+					<li><a href="#">Libero.</a></li>
+					<li><a href="#">Velit.</a></li>
+					<li><a href="#">Voluptatum?</a></li>
+					<li><a href="#">Illum!</a></li>
+				</ul>
+			</div>
+
+
+
+			<h1 class="font h1">Bootstrap Tables (Topic No. 3)</h1>
+
+
+			<h3 class="font">Basic Table<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Number</th>
+						</tr>
+					</thead>
+						<tbody>
+							<tr>
+								<td>Lorem.</td>
+								<td>Quaerat.</td>
+								<td>Repudiandae.</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+						</tbody>
+				</table>
+			</div>
+
+
+
+			<h3 class="font">Striped Rows Table<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Number</th>
+						</tr>
+					</thead>
+						<tbody>
+							<tr>
+								<td>Lorem.</td>
+								<td>Quaerat.</td>
+								<td>Repudiandae.</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+						</tbody>
+				</table>
+			</div>
+
+
+
+			<h3 class="font">Bordered Table<span class="label label-primary">Example No. 3</span></h3>
+			<div class="jumbotron">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Number</th>
+						</tr>
+					</thead>
+						<tbody>
+							<tr>
+								<td>Lorem.</td>
+								<td>Quaerat.</td>
+								<td>Repudiandae.</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+						</tbody>
+				</table>
+			</div>
+
+
+
+			<h3 class="font">Hover Table<span class="label label-primary">Example No. 4</span></h3>
+			<div class="jumbotron">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Number</th>
+						</tr>
+					</thead>
+						<tbody>
+							<tr>
+								<td>Lorem.</td>
+								<td>Quaerat.</td>
+								<td>Repudiandae.</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+						</tbody>
+				</table>
+			</div>
+
+
+			<h3 class="font">Condensed Table<span class="label label-primary">Example No. 5</span></h3>
+			<div class="jumbotron">
+				<table class="table table-condensed">
+					<thead>
+						<tr>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Number</th>
+						</tr>
+					</thead>
+						<tbody>
+							<tr>
+								<td>Lorem.</td>
+								<td>Quaerat.</td>
+								<td>Repudiandae.</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr>
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+						</tbody>
+				</table>
+			</div>
+
+
+
+			<h3 class="font">Contextual Classes Table<span class="label label-primary">Example No. 6</span></h3>
+			<div class="jumbotron">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Default</th>
+							<th>Last Name</th>
+							<th>Number</th>
+						</tr>
+					</thead>
+						<tbody>
+							<tr class="success">
+								<td>Lorem.</td>
+								<td>Quaerat.</td>
+								<td>Repudiandae.</td>
+							</tr>
+							<tr class="danger">
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr class="info">
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr class="warning">
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr class="active">
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+						</tbody>
+				</table>
+			</div>
+
+
+
+
+			<h3 class="font">Responsive Table<span class="label label-primary">Example No. 7</span></h3>
+			<div class="jumbotron">
+				<table class="table table-responsive">
+					<thead>
+						<tr>
+							<th>Default</th>
+							<th>Last Name</th>
+							<th>Number</th>
+						</tr>
+					</thead>
+						<tbody>
+							<tr class="success">
+								<td>Lorem.</td>
+								<td>Quaerat.</td>
+								<td>Repudiandae.</td>
+							</tr>
+							<tr class="danger">
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr class="info">
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr class="warning">
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+							<tr class="active">
+								<td>Lorem.</td>
+								<td>Reprehenderit?</td>
+								<td>Animi!</td>
+							</tr>
+						</tbody>
+				</table>
+			</div>
+
+
+			<h1 class="font h1">Bootstrap Images (Topic No. 4)</h1>
+			
+			<h3 class="font">Images Shapes<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<img src="img/nature.jpg" class="img-rounded" style="width: 200px; height: 200px;" alt="">
+				<img src="img/nature.jpg" class="img-circle" style="width: 200px; height: 200px;" alt="">
+				<img src="img/nature.jpg" class="img-thumbnail" style="width: 200px; height: 200px;" alt="">
+			</div>
+
+
+			<h3 class="font">Responsive Shapes<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<img src="img/nature.jpg" class="img-responsive" style="width: 100%; height: auto;" alt="">
+			</div>
+
+
+
+			<h3 class="font">Responsive Embeds<span class="label label-primary">Example No. 3</span></h3>
+			<div class="jumbotron">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+			</div>
+			</div>
+
+
+
+			<h1 class="font h1">Bootstrap Jumbotron (Topic No. 5)</h1>
+
+
+			<h3 class="font">Page Header<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<div class="page-header">
+					<h1>Example Page Header</h1>
+				</div>
+			</div>
+
+
+
+			<h1 class="font h1">Bootstrap Well (Topic No. 6)</h1>
+
+
+
+
+			<h3 class="font">Well<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<div class="well">
+					<h1>Simple Well</h1>
+				</div>
+			</div>
+
+
+
+			<h3 class="font">Well Sizes<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<div class="well well-sm">Small Well</div>
+				<div class="well">Normal Well</div>
+				<div class="well well-lg">Large Well</div>
+			</div>
+
+
+
+			<h1 class="font h1">Bootstrap Alerts (Topic No. 7)</h1>
+
+
+			<h3 class="font">Alerts Boxes<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<div class="alert alert-success"> <strong>Success !</strong>Lorem ipsum dolor sit amet, consectetur.</div>
+				<div class="alert alert-info"><strong>Info !</strong>Lorem ipsum dolor sit amet, consectetur.</div>
+				<div class="alert alert-warning"><strong>Warning !</strong>Lorem ipsum dolor sit amet, consectetur.</div>
+				<div class="alert alert-danger"><strong>Danger !</strong>Lorem ipsum dolor sit amet, consectetur.</div>
+			</div>
+
+
+
+			<h3 class="font">Alerts Links<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<div class="alert alert-success"> <strong>Success !</strong>Lorem ipsum <a href="#" class="alert-link">Click Me Please!</a></div>
+				<div class="alert alert-info"><strong>Info !</strong>Lorem ipsum <a href="#" class="alert-link">Click Me Please!</a></div>
+				<div class="alert alert-warning"><strong>Warning !</strong>Lorem ipsum <a href="#" class="alert-link">Click Me Please!</a></div>
+				<div class="alert alert-danger"><strong>Danger !</strong>Lorem ipsum <a href="#" class="alert-link">Click Me Please!</a></div>
+			</div>
+
+
+
+			<h3 class="font">Closing & Animated Alerts<span class="label label-primary">Example No. 3</span></h3>
+			<div class="jumbotron">
+				<div class="alert alert-success alert-dismissible fade in"> <strong>Success !</strong>Lorem ipsum Lorem ipsum dolor.<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></div>
+				<div class="alert alert-info alert-dismissible fade in"><strong>Info !</strong>Lorem ipsum Lorem ipsum dolor. <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></div>
+				<div class="alert alert-warning alert-dismissible"><strong>Warning !</strong>Lorem ipsum Lorem ipsum dolor. <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></div>
+				<div class="alert alert-danger alert-dismissible"><strong>Danger !</strong>Lorem ipsum Lorem ipsum dolor. <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></div>
+			</div>
+
+
+
+			<h1 class="font h1">Bootstrap Buttons (Topic No. 8)</h1>
+
+
+			<h3 class="font">Button Styles<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<button type="button" class="btn">Basic</button>
+				<button type="button" class="btn btn-default">Basic</button>
+				<button type="button" class="btn btn-primary">Basic</button>
+				<button type="button" class="btn btn-success">Basic</button>
+				<button type="button" class="btn btn-info">Basic</button>
+				<button type="button" class="btn btn-warning">Basic</button>
+				<button type="button" class="btn btn-danger">Basic</button>
+			</div>
+
+
+			<h3 class="font">Button From Different Tags<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<a href="#" role="button" class="btn btn-info">Link</a>
+				<button type="button" class="btn btn-info">Button</button>
+				<input type="button" class="btn btn-info" value="Input Button">
+				<input type="submit" class="btn btn-info" value="Submit Button">
+			</div>
+
+
+
+			<h3 class="font">Button Sizes<span class="label label-primary">Example No. 3</span></h3>
+			<div class="jumbotron">
+				<button type="button" class="btn btn-info btn-xs">Extra Small</button>
+				<button type="button" class="btn btn-info btn-sm">Small</button>
+				<button type="button" class="btn btn-info btn-md">Medium</button>
+				<button type="button" class="btn btn-info btn-lg">Exta Large</button>
+			</div>
+
+
+
+			<h3 class="font">Block Buttons<span class="label label-primary">Example No. 4</span></h3>
+			<div class="jumbotron">
+				<button type="button" class="btn btn-info btn-block">Button</button>
+				<button type="button" class="btn btn-danger btn-block">Button</button>
+			</div>
+
+
+			<h3 class="font">Active or Disabled Buttons<span class="label label-primary">Example No. 5</span></h3>
+			<div class="jumbotron">
+				<button type="button" class="btn btn-info btn-block active">Button</button>
+				<button type="button" class="btn btn-info btn-block disabled">Button</button>
+			</div>
+
+
+
+			<h1 class="font h1">Bootstrap Button Groups (Topic No. 9)</h1>
+			
+
+			<h3 class="font">Button Groups<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<div class="btn-group">
+					<button type="button" class="btn btn-primary">Apple</button>
+					<button type="button" class="btn btn-primary">Samsung</button>
+					<button type="button" class="btn btn-primary">Sony</button>
+				</div>
+			</div>
+
+
+			<h3 class="font">Vertical Button Groups<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<div class="btn-group-vertical">
+					<button type="button" class="btn btn-primary">Apple</button>
+					<button type="button" class="btn btn-primary">Samsung</button>
+					<button type="button" class="btn btn-primary">Sony</button>
+				</div>
+			</div>
+
+
+			<h3 class="font">Justified Button Groups<span class="label label-primary">Example No. 3</span></h3>
+			<div class="jumbotron">
+				<div class="btn-group-justified">
+					<a class="btn btn-primary">Apple</a>
+					<a class="btn btn-primary">Samsung</a>
+					<a class="btn btn-primary">Sony</a>
+				</div>
+			</div>
+
+
+			<h3 class="font">Nesting Button Groups & Dropdown Menus<span class="label label-primary">Example No. 4</span></h3>
+			<div class="jumbotron">
+				<div class="btn-group">
+					<button type="button" class="btn btn-primary">Apple</button>
+					<button type="button" class="btn btn-primary">Samsung</button>
+					<div class="btn-group">
+						<button type="button" class="btn-primary dropdown-toggle" data-toggle="dropdown">Sony
+						<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Tablet</a></li>
+							<li><a href="#">SmartPhones</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+			<h1 class="font h1">Glyphicons (Topic No. 10)</h1>
+			
+			<h3 class="font">Using of Glyphicons<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+				<p>Envelope icon as a link: <a href="#"><span class="glyphicon glyphicon-envelope"></span></a></p>
+				<p>Search Icons on a Button:<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>Search</button></p>
+			</div>
+
+
+			<h1 class="font h1">Bootstrap Badges and Labels (Topic No. 11)</h1>
+
+			<h3 class="font">Badges<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<a href="#">News <span class="badge">10</span></a><br>
+				<a href="#">Comments <span class="badge">2</span></a><br>
+				<a href="#">Updates <span class="badge">5</span></a>
+				<p><button type="button" class="btn btn-info">Primary <span class="badge">5</span></button></p>
+			</div>
+
+
+			<h3 class="font">Labels<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<span class="label label-default">Default Label</span>
+				<span class="label label-primary">Primary Label</span>
+				<span class="label label-success">Success Label</span>
+				<span class="label label-info">Info Label</span>
+				<span class="label label-warning">Warning Label</span>
+				<span class="label label-danger">Danger Label</span>
+			</div>
+
+
+
+
+			<h1 class="font h1">Bootstrap Progress Bar (Topic No. 12)</h1>
+
+
+			<h3 class="font">Basic Progress Bar<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+						<span class="sr-only">70% Completed</span>
+					</div>
+				</div>
+			</div>
+
+
+
+			<h3 class="font">Progress Bar With Label<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+						70%
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<h3 class="font">Colored Progress Bars<span class="label label-primary">Example No. 3</span></h3>
+			<div class="jumbotron">
+				<div class="progress">
+					<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+						30%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+						45%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						60%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+						70%
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<h3 class="font">Striped Progress Bars<span class="label label-primary">Example No. 4</span></h3>
+			<div class="jumbotron">
+				<div class="progress">
+					<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+						30%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+						45%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						60%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+						70%
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<h3 class="font">Animated Progress Bar<span class="label label-primary">Example No. 5</span></h3>
+			<div class="jumbotron">
+				<div class="progress">
+					<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+						30%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+						45%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						60%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+						70%
+					</div>
+				</div>
+			</div>
+
+
+
+			<h3 class="font">Stacked Progress Bars<span class="label label-primary">Example No. 6</span></h3>
+			<div class="jumbotron">
+				<div class="progress">
+					<div class="progress-bar progress-bar-info" role="progressbar" style="width:20%">Free Space</div>
+					<div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">Free Space</div>
+					<div class="progress-bar progress-bar-danger" role="progressbar" style="width:30%">Free Space</div>
+				</div>
+			</div>
+
+
+
+			<h1 class="font h1">Bootstrap Pagination (Topic No. 13)</h1>
+
+
+			<h3 class="font">Basic Pagination<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<ul class="pagination">
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+				</ul>
+			</div>
+
+
+
+
+			<h3 class="font">Active State<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<ul class="pagination">
+					<li><a href="#">1</a></li>
+					<li class="active"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+				</ul>
+			</div>
+
+
+
+			<h3 class="font">Disabled State<span class="label label-primary">Example No. 3</span></h3>
+			<div class="jumbotron">
+				<ul class="pagination">
+					<li><a href="#">1</a></li>
+					<li class="disabled"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+				</ul>
+			</div>
+
+
+
+			<h3 class="font">Pagination Sizing<span class="label label-primary">Example No. 4</span></h3>
+			<div class="jumbotron">
+				<ul class="pagination pagination-sm">
+					<li><a href="#">1</a></li>
+					<li class="disabled"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+				</ul>
+
+				<ul class="pagination pagination-lg">
+					<li><a href="#">1</a></li>
+					<li class="disabled"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+				</ul>
+			</div>
+
+
+
+			<h3 class="font">Disabled State<span class="label label-primary">Example No. 5</span></h3>
+			<div class="jumbotron">
+				<ul class="breadcrumb">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">IT</a></li>
+					<li><a href="#">Computer Science</a></li>
+					<li><a href="#">Books</a></li>
+					<li class="active">Books Links</li>
+				</ul>
+			</div>
+
+
+
+			<h1 class="font h1">Bootstrap Pager (Topic No. 14)</h1>
+
+
+			<h3 class="font">Basic Pager<span class="label label-primary">Example No. 1</span></h3>
+			<div class="jumbotron">
+				<ul class="pager">
+					<li><a href="#">Previous</a></li>
+					<li><a href="#">Next</a></li>
+				</ul>
+			</div>
+
+
+
+			<h3 class="font">Align Pager<span class="label label-primary">Example No. 2</span></h3>
+			<div class="jumbotron">
+				<ul class="pager">
+					<li class="previous"><a href="#">Previous</a></li>
+					<li class="next"><a href="#">Next</a></li>
+				</ul>
+			</div>
+
+
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>
